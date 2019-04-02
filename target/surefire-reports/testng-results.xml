@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="17515" started-at="2019-03-31T20:11:29Z" finished-at="2019-03-31T20:11:47Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="17515" started-at="2019-03-31T20:11:29Z" finished-at="2019-03-31T20:11:47Z">
+      <class name="pckgSample.SampleTest">
+        <test-method status="PASS" signature="helloWorld()[pri:0, instance:pckgSample.SampleTest@6e8dacdf]" name="helloWorld" duration-ms="0" started-at="2019-04-01T01:41:38Z" finished-at="2019-04-01T01:41:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- helloWorld -->
+        <test-method status="PASS" signature="launchURL()[pri:0, instance:pckgSample.SampleTest@6e8dacdf]" name="launchURL" duration-ms="9376" started-at="2019-04-01T01:41:38Z" finished-at="2019-04-01T01:41:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+      </class> <!-- pckgSample.SampleTest -->
+      <class name="pckgSample.Sample1Test">
+        <test-method status="PASS" signature="helloWorld()[pri:0, instance:pckgSample.Sample1Test@6a5fc7f7]" name="helloWorld" duration-ms="7" started-at="2019-04-01T01:41:29Z" finished-at="2019-04-01T01:41:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- helloWorld -->
+        <test-method status="PASS" signature="launchURL()[pri:0, instance:pckgSample.Sample1Test@6a5fc7f7]" name="launchURL" duration-ms="8113" started-at="2019-04-01T01:41:29Z" finished-at="2019-04-01T01:41:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+      </class> <!-- pckgSample.Sample1Test -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
