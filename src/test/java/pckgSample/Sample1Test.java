@@ -25,6 +25,7 @@ public class Sample1Test {
 		driver.get("http://www.facebook.com");
 
 		Assert.assertFalse(driver.getTitle().equalsIgnoreCase("My Store"));
+		//title not matching validation
 		
 		driver.close();
 	}
